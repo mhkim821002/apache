@@ -405,7 +405,7 @@ autoscaling:
 service:
   ## @param service.type Apache Service type
   ##
-  type: NodePort
+  type: LoadBalancer
   ## @param service.ports.http Apache service HTTP port
   ## @param service.ports.https Apache service HTTPS port
   ##
